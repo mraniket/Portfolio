@@ -4,6 +4,7 @@ import React from "react";
 import { Button } from "@material-ui/core";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Route,
   Link,
   Switch,
@@ -21,10 +22,10 @@ function App() {
       <div>
       </div>
       <div>
-        <Router>
+        <HashRouter>
          <Navbar />
           <Switch>
-            <Route path="/contact/Contact">
+            <Route path="/Contact">
               <Contact />
             </Route>
             
@@ -39,7 +40,7 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </Router>
+        </HashRouter>
       </div>
     </div>
   );
