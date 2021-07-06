@@ -24,7 +24,7 @@ function App() {
         <Router>
          <Navbar />
           <Switch>
-            <Route path="/contact">
+            <Route path="/contact/Contact">
               <Contact />
             </Route>
             
