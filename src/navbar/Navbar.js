@@ -106,7 +106,7 @@ export default function ButtonAppBar() {
             <Button><Link to="/home">Home</Link></Button>
             <Button href="/contact"><Link to="/contact/Contact">Contact</Link></Button>
             <Button href="/about/About/" >about</Button>
-            <a href="/resume/Resume">resume</a>
+            <a href="#/resume">resume</a>
               
             <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
               <i class="fa fa-instagram"></i>
