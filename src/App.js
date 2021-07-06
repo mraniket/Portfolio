@@ -25,6 +25,7 @@ function App() {
         <HashRouter>
          <Navbar />
           <Switch>
+            
             <Route path="/Contact">
               <Contact />
             </Route>

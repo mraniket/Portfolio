@@ -48,7 +48,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-
 export default function ButtonAppBar() {
   const classes = useStyles();
   const theme = useTheme();
@@ -65,9 +64,6 @@ export default function ButtonAppBar() {
     setOpen(false);
   };
 
-
-  
-  
   return (
     <div data-aos="fade-in" id="navbar">
       {/* <AppBar position="absolute" className="appbar"> */}
@@ -98,7 +94,6 @@ export default function ButtonAppBar() {
             data-aos="fade-left"
             data-aos-duration="900"
           >
-
             <Button><Link to="/home">Home</Link></Button>
             <Button><Link to="/contact">Contact</Link></Button>
             <Button><Link to="/about">ABout</Link></Button>
@@ -130,11 +125,10 @@ export default function ButtonAppBar() {
         </div>
         <Divider />
         <List>
-          <li><Button href="/home/Home">Home</Button></li>
-          <li> <Button href="/contact/Contact">Contact</Button></li>
-          <li><Button href="/about/About">about</Button></li>
-          <li><Button style={{hover: 'color: red'}} href="/resume/Resume">resume</Button></li>  
-          
+          <li><Button><Link to="/home">Home</Link></Button></li>
+          <li> <Button><Link to="/contact">Contact</Link></Button></li>
+          <li> <Button><Link to="/about">ABout</Link></Button></li>
+          <li><Button><Link to="/resume">Resume</Link></Button> </li>  
         </List>
         <Divider />
         <h3 style={{textAlign:'center', padding:'10px' }}> Visit Me</h3>

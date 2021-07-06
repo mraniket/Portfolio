@@ -8,7 +8,7 @@ background-image: url(./user-profile.png);
 .hideButtons{
     @media only screen and (max-width: 600px) {
            #fadeshow1 {
-        display: none;
+        display: none !important;
     }
         
       }
@@ -17,31 +17,31 @@ background-image: url(./user-profile.png);
   
   @media only screen and (max-width: 600px) {
     #fadeshow1 {
-        display: none;
-        color: white;
+        display: none !important;
+        color: white !important;
     }
 }
   @media only screen and (min-width: 500px) {
     #fadeshow2 {
-        display: none;
+        display: none !important;
     }
 }
 
 #navbar{
-    max-width: 100%;
-    font-size: 12px;
+    max-width: 100% !important;
+    font-size: 12px !important;
     
 }
 
 .fonts{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    padding-right: 60px;
+    font-size: 20px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    padding-right: 60px !important;
 }
 
 #shadow{
 
-    box-shadow: 0px 1px 10px 0.1px;
+    box-shadow: 0px 1px 10px 0.1px !important;
     /* padding-top: 1px; */
     /* background: linear-gradient(90deg, rgba(221,45,158,1) 35%, rgba(68,0,255,0.9136029411764706) 100%); */
 }
@@ -49,16 +49,16 @@ background-image: url(./user-profile.png);
 #font{
     /* font-style: italic; */
     /* font-weight: bold; */
-    font-size: 32px;
-    display: inline-block;
-    padding-left: 10rem;
+    font-size: 32px !important;
+    display: inline-block !important;
+    padding-left: 10rem !important;
 }
 
 @media only screen and (max-width: 600px) {
     #font {
-        font-size: 28px;
-    display: inline-block;
-    padding-left: 5rem;
+        font-size: 28px !important;
+    display: inline-block !important;
+    padding-left: 5rem !important;
     }
 }
 #font #font1{
