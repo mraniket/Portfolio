@@ -94,6 +94,7 @@ export default function ButtonAppBar() {
             data-aos="fade-left"
             data-aos-duration="900"
           >
+            <a href="/home">Home</a>
             <Button href="/home/Home">Home</Button>
             <Button href="/contact">Contact</Button>
             <Button href="/about/About" >about</Button>
