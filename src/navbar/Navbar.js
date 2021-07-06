@@ -99,21 +99,13 @@ export default function ButtonAppBar() {
           >
 
             <ul role="nav">
-                  <li><Link to="/home">Client Side</Link></li>
-                  <li><Link to="/contact/Contact">Server Side</Link></li>
+                  <li><Link to="/home">Home</Link></li>
+                  <li><Link to="/contact/Contact">Contact</Link></li>
             </ul>
-            <Button href="/home/Home">Home</Button>
-            <Button href="/contact">Contact</Button>
+            <Button><Link to="/home">Home</Link></Button>
+            <Button ><Link to="/contact/Contact">Contact</Link></Button>
             <Button href="/about/About/" >about</Button>
             <Button href="/resume">resume</Button>
-
-            <HashRouter>
-          {/* <Route exact path="/" component={Projects} /> */}
-          <Route path="/about" component={About} />
-          {/* <Route path="/critterpedia" component={Critterpedia} /> */}
-          {/* <Route path="/bluenotes" component={Bluenotes} /> */}
-          {/* <Route path="/formally" component={Formally} /> */}
-        </HashRouter>
               
             <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
               <i class="fa fa-instagram"></i>
