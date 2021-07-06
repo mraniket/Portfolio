@@ -65,6 +65,7 @@ export default function ButtonAppBar() {
     setOpen(false);
   };
 
+
   
   
   return (
@@ -103,9 +104,9 @@ export default function ButtonAppBar() {
                   <li><Link to="/contact/Contact">Contact</Link></li>
             </ul>
             <Button><Link to="/home">Home</Link></Button>
-            <Button ><Link to="/contact/Contact">Contact</Link></Button>
+            <Button href="/contact"><Link to="/contact/Contact">Contact</Link></Button>
             <Button href="/about/About/" >about</Button>
-            <Button href="/resume">resume</Button>
+            <a href="/resume/Resume">resume</a>
               
             <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
               <i class="fa fa-instagram"></i>
