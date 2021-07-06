@@ -123,15 +123,29 @@ background-image: url(./user-profile.png);
     color: #55198b;
 }
 
+/* Navbar buttons */
+
+.button {
+    font: 15px Arial;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #030303;
+    padding: 2px 20px 2px 5px;
+    /* border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC; */
+  }
+  
 /* Media queries */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 950px) {
     #fadeshow1 {
         display: none !important;
-        color: white !important;
+        /* color: white !important; */
     }
 }
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 950px) {
     #fadeshow2 {
         display: none !important;
     }

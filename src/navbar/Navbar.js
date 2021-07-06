@@ -94,11 +94,11 @@ export default function ButtonAppBar() {
             data-aos="fade-left"
             data-aos-duration="900"
           >
-            <Button><Link to="/home">Home</Link></Button>
-            <Button><Link to="/contact">Contact</Link></Button>
-            <Button><Link to="/about">ABout</Link></Button>
-            <Button><Link to="/resume">Resume</Link></Button>         
-            <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
+            <Button><Link className="button" to="/home">Home</Link></Button>
+            <Button><Link className="button" to="/contact">Contact</Link></Button>
+            <Button><Link className="button" to="/about">ABout</Link></Button>
+            <Button><Link className="button" to="/resume">Resume</Link></Button>         
+            <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="button">
               <i class="fa fa-instagram"></i>
             </a>
           </div>

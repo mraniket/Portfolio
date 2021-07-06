@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './Contact.css';
 import AOS from "aos";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from '../images/image1.png';
+// import img1 from '../images/image1.png';
 import 'font-awesome/css/font-awesome.min.css';
 
 
@@ -20,7 +20,7 @@ export default function Contact() {
 
           <div class="row" >
             <div class="col-sm-6" id='imagealign' data-aos="fade-in">
-            <img src={img1}   class="img1 float-end"></img>
+            <img    class="img1 float-end"></img>
             </div>
 
             <div class="col-sm-6" id="intro" data-aos="fade-up">
@@ -103,7 +103,7 @@ export default function Contact() {
               </div>
             </div>
             <div class="col-sm-8" id='imagealign' data-aos="fade-up">
-              <img src={img1}   class="img1 float-end"></img>
+              <img   class="img1 float-end"></img>
             </div>  
           </div>
 
