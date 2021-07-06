@@ -19,10 +19,10 @@ function App() {
   return (
     <div>
       <div>
-        <Navbar />
       </div>
       <div>
         <Router>
+         <Navbar />
           <Switch>
             <Route path="/contact">
               <Contact />

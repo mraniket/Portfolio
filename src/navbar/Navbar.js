@@ -95,8 +95,8 @@ export default function ButtonAppBar() {
             data-aos-duration="900"
           >
             <Button href="/home/Home">Home</Button>
-            <Button href="#/contact">Contact</Button>
-            <Button href="#/about/About" >about</Button>
+            <Button href="/contact">Contact</Button>
+            <Button href="/about/About" >about</Button>
             <Button href="/resume">resume</Button>
               
             <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
