@@ -71,12 +71,12 @@ export default function Home() {
               <div className="skill">
                  <p> Full Stack Development </p>
               </div>
-              <div className="skill_explain">
+              <div className="skill_explain" data-aos="flip-right">
                 <p>🌟 Developing responsive dynamic web applications skillfully using React and php frameworks</p><br/>
                 <p>🌟 Skillfully using the html, css, javascript, bootstrap for designing the we applications </p><br/>
               </div>
 
-              <div className="skill_badges">
+              <div className="skill_badges" data-aos="flip-left">
                 
                <img src={imghtml} className="htmlsvg"></img>
                <img src={imgcss} className="csspng"></img>
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
           </div>
 
-          <p className="mid2"  >Made with ❤️️ by mrAniket</p>
+          <p className="mid2"   >Made with ❤️️ by mrAniket</p>
     
 
       </div>
