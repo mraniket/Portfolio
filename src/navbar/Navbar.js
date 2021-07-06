@@ -63,7 +63,8 @@ export default function ButtonAppBar() {
     setOpen(false);
   };
 
-
+  
+  
   return (
     <div data-aos="fade-in" id="navbar">
       {/* <AppBar position="absolute" className="appbar"> */}
@@ -94,7 +95,11 @@ export default function ButtonAppBar() {
             data-aos="fade-left"
             data-aos-duration="900"
           >
-            <a href="#/contact">contact</a>
+
+<ul role="nav">
+      <li><Link to="/home">Client Side</Link></li>
+      <li><Link to="/contact/Contact">Server Side</Link></li>
+</ul>
             <Button href="/home/Home">Home</Button>
             <Button href="/contact">Contact</Button>
             <Button href="/about/About" >about</Button>
