@@ -83,8 +83,8 @@ export default function ButtonAppBar() {
           <Typography variant="h4" className={classes.title} id="font">
            
             {/* <p id="font1"> Aniket</p> */}
-            <i class="fa fa-code"></i>
-            <img src={img2}></img>
+            {/* <span style={{color: "grey"}}> ( </span> */}
+            <span className="logo-name">Aniket Shinde</span>
             {/* <img src="aniket.png" /> */}
           </Typography>
 

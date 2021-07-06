@@ -116,15 +116,22 @@ background-image: url(./user-profile.png);
    margin: 0 5px 10px;
 }
 
+.logo-name{
+    font-family: 'Agustina', sans-serif;
+                                                
+    font-weight: 700;
+    color: #55198b;
+}
+
 /* Media queries */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #fadeshow1 {
         display: none !important;
         color: white !important;
     }
 }
-  @media only screen and (min-width: 500px) {
+  @media only screen and (min-width: 700px) {
     #fadeshow2 {
         display: none !important;
     }
@@ -135,6 +142,6 @@ background-image: url(./user-profile.png);
     #font {
         font-size: 28px !important;
     display: inline-block !important;
-    padding-left: 5rem !important;
+    padding-left: 4rem !important;
     }
 }
