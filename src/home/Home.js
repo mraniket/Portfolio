@@ -64,15 +64,15 @@ export default function Home() {
           
 
       <div class="row" >
-            <div class="col-sm-6" id='imagealign' data-aos="fade-up-right" data-aos-duration="900">
-              <img src={img2}   class="img2 float-end"></img>
+            <div class="col-sm-6" id='imagealign' data-aos="flip-left" data-aos-duration="900">
+              <img src={img2}   class="img2"></img>
             </div>  
-            <div class="col-sm-6" id="intro" data-aos="flip-up" data-aos-duration="900">
-              <div className="intro">
+            <div class="col-sm-6" id="intro"  data-aos-duration="900">
+              <div className="skill">
                  <p> Full Stack Development </p>
-                 <p className="introSubtitle">Working with virtual world as a Computer Engineer.
+                 {/* <p className="introSubtitle">Working with virtual world as a Computer Engineer.
                  You are visiting my porfolio, 
-                 I hope it will found you little intresting.</p>
+                 I hope it will found you little intresting.</p> */}
               </div>
               <div className="skill_badges">
                 
@@ -86,35 +86,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-      <div class="row" >
-            <div class="col-sm-6" id='imagealign' data-aos="fade-up-right" data-aos-duration="900">
-              <img src={img2}   class="img2 float-end"></img>
-            </div>  
-            <div class="col-sm-6" id="intro" data-aos="flip-up" data-aos-duration="900">
-              <div className="intro">
-                 <p>Hello! :) I'm Aniket </p>
-                 <p className="introSubtitle">Working with virtual world as a Computer Engineer.
-                 You are visiting my porfolio, 
-                 I hope it will found you little intresting.</p>
-              </div>
-              <div className="fa_icons">
-                
-                <a href="https://github.com" target="_blank" className="github">
-                 <i class="fa fa-github"></i>
-                </a>
-                <a href="https://twitter.com/TheAniket_" target="_blank" className="twitter">
-                 <i class="fa fa-twitter"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/aniket-shinde-4b72341b5/" target="_blank" className="linkedin">
-                 <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta" >
-                 <i class="fa fa-instagram"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          
+
           
     
 

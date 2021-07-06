@@ -9,7 +9,7 @@
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .img1{
@@ -21,7 +21,7 @@
 }
 .img2{
     padding-top: 60px;
-    padding-left: 50px;
+    padding-left: 40px;
     margin-left: 40px;
     max-width: 100%;
     height: auto;
@@ -48,6 +48,7 @@
     margin-left: 40px;
     
 }
+
 
 
 .introSubtitle{
@@ -137,22 +138,34 @@
     
 
     /* Skills icon  */
+
+    .skill{
+        /* font-family: Google Sans Bold; */
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 40px;
+        
+    }
+
+    .skill_badges{
+        object-fit: contain;
+    }
     .jsgif{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         border-radius: 10rem 5rem ; 
     }
     
     .csspng{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         
          
 
     }
     .htmlsvg{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
          
 
     }
@@ -164,30 +177,28 @@
 
 
     .reactgif{
-        width: 70px;
-        height: 70px;
-        padding-right: 5px;
-        padding-left: 5px;
+        width: 65px;
+        height: 65px;
+        padding-right: 0px;
+        /* padding-left: 5px; */
         
 
     }
     .phppng{
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
         
 
     }
     .bootspng{
-        width: 70px;
-        height: 70px;
+        width: 65px;
+        height: 65px;
         
 
     }
     .phpmyadminpng{
-        width: 70px;
-        height: 70px;
-        
-
+        width: 65px;
+        height: 65px;
     }
     
     @media only screen and (max-width: 600px) {
@@ -214,14 +225,26 @@
     }
     @media only screen and (max-width: 1300px) {
         .introSubtitle {
-           font-size: 16px;
-           line-height: 30px;
+            font-size: 16px;
+            line-height: 30px;
         }
     }
     @media only screen and (max-width: 900px) {
         .img1 {
-           padding-left: 0px;
-           padding-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
     }
-  
+    /* skillss container */
+    @media only screen and (max-width: 700px) {
+        .skill {
+           font-size: 30px;
+           text-align: center;
+           padding-right: 5px;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .skill_badges {
+          
+        }
+    }
