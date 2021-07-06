@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import clsx from "clsx";
+import About from "../about/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img2 from '../images/image2.png';
@@ -25,6 +26,7 @@ import { Divider } from "@material-ui/core";
 import 'font-awesome/css/font-awesome.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import {
+  HashRouter,
   BrowserRouter as Router,
   Route,
   Link,
@@ -96,14 +98,22 @@ export default function ButtonAppBar() {
             data-aos-duration="900"
           >
 
-<ul role="nav">
-      <li><Link to="/home">Client Side</Link></li>
-      <li><Link to="/contact/Contact">Server Side</Link></li>
-</ul>
+            <ul role="nav">
+                  <li><Link to="/home">Client Side</Link></li>
+                  <li><Link to="/contact/Contact">Server Side</Link></li>
+            </ul>
             <Button href="/home/Home">Home</Button>
             <Button href="/contact">Contact</Button>
-            <Button href="/about/About" >about</Button>
+            <Button href="/about/About/" >about</Button>
             <Button href="/resume">resume</Button>
+
+            <HashRouter>
+          {/* <Route exact path="/" component={Projects} /> */}
+          <Route path="/about" component={About} />
+          {/* <Route path="/critterpedia" component={Critterpedia} /> */}
+          {/* <Route path="/bluenotes" component={Bluenotes} /> */}
+          {/* <Route path="/formally" component={Formally} /> */}
+        </HashRouter>
               
             <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta">
               <i class="fa fa-instagram"></i>
