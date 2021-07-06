@@ -70,10 +70,12 @@ export default function Home() {
             <div class="col-sm-6" id="intro"  data-aos-duration="900">
               <div className="skill">
                  <p> Full Stack Development </p>
-                 {/* <p className="introSubtitle">Working with virtual world as a Computer Engineer.
-                 You are visiting my porfolio, 
-                 I hope it will found you little intresting.</p> */}
               </div>
+              <div className="skill_explain">
+                <p>🌟 Developing responsive dynamic web applications skillfully using React and php frameworks</p><br/>
+                <p>🌟 Skillfully using the html, css, javascript, bootstrap for designing the we applications </p><br/>
+              </div>
+
               <div className="skill_badges">
                 
                <img src={imghtml} className="htmlsvg"></img>
@@ -87,7 +89,7 @@ export default function Home() {
             </div>
           </div>
 
-          
+          <p className="mid2"  >Made with ❤️️ by mrAniket</p>
     
 
       </div>

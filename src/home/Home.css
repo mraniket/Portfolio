@@ -9,7 +9,13 @@
     margin-top: 60px;
     margin-bottom: 40px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+}
+.mid2{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 1;
 }
 
 .img1{
@@ -36,7 +42,7 @@
     margin: auto;
     padding-top: 0px;
     color: rgb(2, 2, 2);
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     padding-left: 50px;
 
 }
@@ -147,8 +153,15 @@
         
     }
 
+    .skill_explain{
+        color: rgb(102, 96, 96);
+        font-size: 15px;
+        
+    }
+
     .skill_badges{
         object-fit: contain;
+        /* padding-left: 10px; */
     }
     .jsgif{
         width: 65px;
@@ -203,7 +216,7 @@
     
     @media only screen and (max-width: 600px) {
         #intro {
-           padding-top: 30px;
+           padding-top: 20px;
            margin-right: 30px;
             padding-top: 10px;
             padding-left: 0px;
