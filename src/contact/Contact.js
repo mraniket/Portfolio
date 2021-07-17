@@ -59,7 +59,7 @@ export default function Home() {
                 
               </div>
               <div className="intro">
-              <button className="btn"><a className="btn" href="https://drive.google.com/file/d/1CMV_JrW1HNsTAKWl4sF2a4LAwecfjzjL/view?usp=sharing">My Resume</a></button>
+              <button className="btn"><a className="btn" href="https://drive.google.com/file/d/1CMV_JrW1HNsTAKWl4sF2a4LAwecfjzjL/view?usp=sharing" target="_blank">My Resume</a></button>
               </div>
             </div>
              
