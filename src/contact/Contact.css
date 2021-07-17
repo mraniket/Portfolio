@@ -1,22 +1,289 @@
 .title{
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    margin-top: 0px;
 }
+.row1_contact{
+    /* padding-top: 5px; */
+}
+.mid1{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.mid2{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: #7f878f;
+}
+
+.img1_contact{
+    padding-top: 50px;
+    /* padding-left: 40px; */
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.img2{
+    padding-top: 60px;
+    padding-left: 40px;
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.container{
+    max-width: 100%;
+}
+
+#introcontact{
+    
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 60px;
+    text-align: center;
+
+}
+
+.introcontact{
+    /* font-family: Google Sans Bold; */
+    font-size: 60px;
+    font-weight: 550;
+    margin-left: 40px;
+    align-content: center;
+
+}
+
+
 
 .ContactSubtitle{
     font-family: "Gill Sans", sans-serif;
     font-size: 18px;
-    margin-left: 0;
-    margin-right: 0;
-    line-height: 25px;
-    text-align: center;
+    font-weight: 600;
+    margin-right: 40px;
+    line-height: 1.5rem;
     padding-bottom: 10px;
-    
+    /* text-align: center; */
     color: #7f878f;
+    
 }
 
-@media only screen and (max-width: 960px) {
-    #intro {
-       padding-top: 50px;
-       margin: auto;
+.fa_icons{
+    
+     font-family: font-awesome;
+     margin-left: 40px;
+     padding-top: 10px;
+     
+    }
+    
+    .fa_icons .insta{
+        color: white;
+        background-color: rgb(51, 47, 47);
+        border-radius: 2.6rem;
+        font-size: 1.3rem;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        width: 2.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        margin: 0 5px 10px;
+        /* padding: 10px 14px 10px 14px; */
+        /* margin-top: 10px; */
+    }
+    .fa_icons .insta:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .fa_icons .github{
+        color: white;
+        background-color: rgb(54, 52, 52);
+        border-radius: 2.6rem;
+        font-size: 1.3rem;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        width: 2.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        margin: 0 5px 10px;
+    }
+    
+    .fa_icons .github:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .fa_icons .linkedin{
+        color: white;
+        background-color: rgb(69, 125, 245);
+        border-radius: 2.6rem;
+        font-size: 1.3rem;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        width: 2.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        margin: 0 5px 10px;
+    }
+    .fa_icons .linkedin:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .fa_icons .twitter{
+        color: white;
+        background-color: rgb(25, 153, 228);
+        border-radius: 2.6rem;
+        font-size: 1.3rem;
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        width: 2.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        margin: 0 5px 10px;
+    }
+    .fa_icons .twitter:hover{
+        background-color: rgb(0, 0, 0);
+    }
+
+    .btn{
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        background-color: rgb(90, 51, 163);
+        padding: 5px 12px 5px 12px;
+        border-radius: 6px;
+
+    }
+    
+
+    /* Skills icon  */
+
+    .skill{
+        /* font-family: Google Sans Bold; */
+        font-size: 50px;
+        font-weight: bold;
+        margin-left: 40px;
+        
+    }
+
+    .skill_explain{
+        color: rgb(102, 96, 96);
+        font-size: 15px;
+        
+    }
+
+    .skill_badges{
+        object-fit: contain;
+        /* padding-left: 10px; */
+    }
+    .jsgif{
+        width: 65px;
+        height: 65px;
+        border-radius: 10rem 5rem ; 
+    }
+    
+    .csspng{
+        width: 65px;
+        height: 65px;
+        
+         
+
+    }
+    .htmlsvg{
+        width: 65px;
+        height: 65px;
+         
+
+    }
+    .htmlsvg :hover{
+        
+         
+
+    }
+
+
+    .reactgif{
+        width: 65px;
+        height: 65px;
+        padding-right: 0px;
+        /* padding-left: 5px; */
+        
+
+    }
+    .phppng{
+        width: 65px;
+        height: 65px;
+        
+
+    }
+    .bootspng{
+        width: 65px;
+        height: 65px;
+        
+
+    }
+    .phpmyadminpng{
+        width: 65px;
+        height: 65px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #introcontact {
+           padding-top: 20px;
+           margin-right: 30px;
+            padding-top: 10px;
+            padding-left: 0px;
+            padding-right: 0px;
+            text-align: center;
+
+        }
+    }
+    @media only screen and (max-width: 600px) {
+    .btn{
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        
+        background-color: rgb(90, 51, 163);
+        padding: 3px 8px 3px 8px;
+        border-radius: 6px;
+
     }
 }
+
+    @media only screen and (max-width: 1300px) {
+        .intro {
+           font-size: 40px;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .intro {
+           font-size: 30px;
+        }
+    }
+    @media only screen and (max-width: 1300px) {
+        .ContactSubtitle {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5rem;
+        }
+    }
+    @media only screen and (max-width: 900px) {
+        .img1 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    /* skillss container */
+    @media only screen and (max-width: 700px) {
+        .skill {
+           font-size: 30px;
+           text-align: center;
+           padding-right: 5px;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .skill_badges {
+          
+        }
+    }

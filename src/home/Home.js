@@ -33,7 +33,7 @@ export default function Home() {
             <div class="col-sm-6" id="intro" data-aos="fade-in">
               <div className="intro">
                  <p>Hello ! :) I'm Aniket </p>
-                 <p className="introSubtitle">Working with virtual world as a Computer Engineer.
+                 <p className="introSubtitle">Working in virtual world as a Computer Engineer.
                  You are visiting my porfolio, 
                  I hope it will found you little intresting.</p>
               </div>
@@ -51,6 +51,10 @@ export default function Home() {
                 <a href="https://www.instagram.com/theaniket_007/" target="_blank" className="insta" >
                  <i class="fa fa-instagram"></i>
                 </a>
+                
+              </div>
+              <div className="intro">
+              <button className="btn"><a className="btn" href="https://drive.google.com/file/d/1CMV_JrW1HNsTAKWl4sF2a4LAwecfjzjL/view?usp=sharing">My Resume</a></button>
               </div>
             </div>
             <div class="col-sm-6" id='imagealign' data-aos="fade-in">
